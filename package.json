@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Júlio César <julio.souzam@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^4.3.0"
+  }
 }
