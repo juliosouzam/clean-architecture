@@ -12,7 +12,8 @@
   },
   "lint-staged": {
     "*.ts": [
-      "eslint --fix"
+      "eslint --fix",
+      "npm run test:staged"
     ]
   },
   "devDependencies": {
@@ -35,6 +36,7 @@
     "typescript": "^4.0.5"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   }
 }
